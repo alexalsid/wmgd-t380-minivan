@@ -4,49 +4,49 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "4C4D4733-D665-440E-88B9-ADB96CB54D46"
+		"uuidString": "F7DFFABA-7208-406C-97B2-DC6C99A20927"
 		}
 	],
 "creatorBuild": "28905",
 "files": {
-	"/dev/build/css/main.css": {
+	"/build/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/build/css/main-min.css",
+		"oAP": "/build/css/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/dev/build/js/main-min.js": {
+	"/build/js/main-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/build/js/main-min-min.js",
+		"oAP": "/build/js/main-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/dev/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/dev/src/js/main.js": {
+	"/src/js/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/build/js/main-min.js",
-		"oF": 2,
+		"oAP": "/src/js/main-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/src/scss/imports/animations.scss": {
+	"/src/scss/imports/animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -54,30 +54,25 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/src/scss/imports/animations.css",
+		"oAP": "/src/scss/imports/animations.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-<<<<<<< HEAD
-	"/dev/src/scss/imports/base/_base.scss": {
-=======
-	"/dev/src/scss/imports/hero.scss": {
->>>>>>> f374c67169d579292b0da1f913d88edec3a46916
+	"/src/scss/imports/hero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-<<<<<<< HEAD
 		"oA": 1,
-		"oAP": "/dev/src/scss/imports/base/_base.css",
+		"oAP": "/src/scss/imports/hero.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/src/scss/imports/base/_normalize.scss": {
+	"/src/scss/imports/layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -85,12 +80,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/src/scss/imports/base/_normalize.css",
+		"oAP": "/src/scss/imports/layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/src/scss/imports/base/_typography.scss": {
+	"/src/scss/imports/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -98,185 +93,22 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/src/scss/imports/base/_typography.css",
+		"oAP": "/src/scss/imports/styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/src/scss/imports/helpers/_mixins.scss": {
-		"aP": 0,
+	"/src/scss/main.css": {
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
+		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/helpers/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/interactive/_button.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/interactive/_button.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/interactive/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/interactive/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/interactive/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/interactive/_navigation.css",
-=======
 		"oA": 0,
-		"oAP": "/dev/src/scss/imports/hero.css",
->>>>>>> f374c67169d579292b0da1f913d88edec3a46916
+		"oAP": "/src/scss/main-min.css",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oS": 3
 		},
-	"/dev/src/scss/imports/layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/Sections/_customize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/Sections/_customize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/sections/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/sections/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/sections/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/sections/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/Sections/_hero.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/Sections/_hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/Sections/_interiors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/Sections/_interiors.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/Sections/_technology.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/Sections/_technology.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/imports/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/src/scss/imports/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/src/scss/main.scss": {
+	"/src/scss/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -284,28 +116,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/build/css/main.css",
-		"oF": 2,
+		"oAP": "/src/scss/main.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [
@@ -313,10 +127,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 573066745.28270197,
-	"displayValue": "wmgd-t380-minivan",
+	"creationDate": 573074510.06672204,
+	"displayValue": "dev",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart",
+	"iconImageName": "meme-girlfriend",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
