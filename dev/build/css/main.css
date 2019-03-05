@@ -81,7 +81,7 @@ footer {
   grid-template-areas: "gallery1" "gallery2" "custom" "gallery3" "gallery4" "gallery5"; }
   @media (min-width: 650px) {
     .gallery {
-      grid-auto-columns: 50% 50%;
+      grid-auto-columns: 50% auto;
       grid-column-gap: 10px;
       grid-template-areas: "gallery3 gallery5" "gallery3 custom" "gallery1 gallery1" "gallery4 gallery2"; } }
   @media (min-width: 1000px) {

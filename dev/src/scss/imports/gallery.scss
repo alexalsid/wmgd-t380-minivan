@@ -17,7 +17,7 @@
   ;
 
   @include md{
-    grid-auto-columns: 50% 50%;
+    grid-auto-columns: 50% auto;
     grid-column-gap: 10px;
     grid-template-areas:
     "gallery3 gallery5"
@@ -71,6 +71,8 @@
   background-size: cover;
   background-position: bottom;
   grid-area: gallery1;
+
+  
 
 }
 
