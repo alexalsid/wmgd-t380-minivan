@@ -1,6 +1,13 @@
+@import "imports/helpers/variables.scss";
+@import "imports/helpers/mixins.scss";
+
+
 @import 'imports/styles.scss';
 @import 'imports/animations.scss';
 @import 'imports/layout.scss';
 
 
 @import 'imports/hero.scss';
+@import 'imports/header.scss';
+@import 'imports/footer.scss';
+@import 'imports/gallery.scss';

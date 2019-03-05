@@ -66,7 +66,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/src/scss/imports/hero.css",
 		"oF": 0,
 		"oS": 0,
@@ -97,6 +97,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/src/scss/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/src/scss/main-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/dev/src/scss/main.scss": {
 		"aP": 0,

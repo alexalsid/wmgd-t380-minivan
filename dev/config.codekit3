@@ -19,6 +19,72 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/build/img/gallery/gallery1.jpeg": {
+		"ft": 16384,
+		"iS": 84040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery2.jpg": {
+		"ft": 16384,
+		"iS": 155277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery3.jpeg": {
+		"ft": 16384,
+		"iS": 32778,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery4.jpg": {
+		"ft": 16384,
+		"iS": 343336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery5.jpeg": {
+		"ft": 16384,
+		"iS": 56923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/hero/hero.jpg": {
+		"ft": 16384,
+		"iS": 100102,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/hero/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/build/js/main-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -35,6 +101,16 @@
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
+		},
+	"/src/js/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/src/js/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/src/js/main.js": {
 		"ft": 64,
@@ -55,6 +131,71 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/scss/imports/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/gallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/gallery.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/helpers/mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/helpers/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/helpers/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/helpers/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -98,6 +239,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/scss/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/src/scss/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/src/scss/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -116,8 +267,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/src/scss/main.css",
-		"oF": 0,
+		"oAP": "/build/css/main.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		}
