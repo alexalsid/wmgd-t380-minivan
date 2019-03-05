@@ -1,1 +1,447 @@
 /*Interiors*/
+
+#interiors {
+	overflow: hidden;
+
+	h1{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 48px;
+		font-weight: 600;
+		text-align: center;
+		margin: 0;
+
+		@include md {
+			font-size: 58px;
+		}
+
+		@include lg {
+			font-size: 70px;
+		}
+	}
+
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		padding: 0 20px;
+		text-align: center;
+		margin: 0;
+
+		@include md{
+			font-size: 30px;
+			line-height: 46px;
+		}
+
+		@include lg{
+			font-size: 40px;
+			line-height: 66px;
+		}
+	}
+
+	h2 span {
+		font-weight: 600;
+
+		@include md{
+			font-size: 40px;
+		}
+
+		@include lg{
+			font-size: 60px;
+		}
+	}
+
+	p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		line-height: 25px;
+		font-weight: 300;
+		padding: 0 21px;
+		text-align: justify;
+		margin: 0;
+
+		@include md {
+			font-size: 17px;
+			line-height: 27px;
+		}
+	}
+
+	#interiorsintro {
+
+		padding-top: 100px;
+		padding-bottom: 80px;
+
+		@include md{
+			padding-top: 120px;
+			padding-bottom: 100px;
+		}
+
+		@include lg {
+			display: grid;
+			grid-gap: 20px;
+			grid-template-areas: 
+			"ntro intro"
+			"introImg introOne";
+			grid-template-columns: 1fr 1fr;
+			padding-top: 140px;
+			padding-bottom: 120px;
+		}
+
+		h1{
+			grid-area: intro;
+
+			@include md {
+				text-align: right;
+				padding-right: 50px;
+			}
+
+			@include lg{
+				text-align: center;
+				padding-right: 100px; 
+			}
+		}
+
+		p{
+			grid-area: introOne;
+			padding: 40px 20px 0px 20px;
+
+			@include md {
+				padding: 50px 200px 0px 150px;
+			}
+
+			@include lg {
+				padding: 50px 100px 0px 0px;
+			}
+		}
+
+
+		div {
+			background-image: url('../img/interiors/Intro.png');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            display: none;
+            grid-area: introImg;
+
+            @include lg {
+            	display: block;
+            	min-height: rem-calc(300);
+            	background-position: right;
+            	margin-right: -40px;
+            }
+		}
+
+	}
+
+
+	#polo {	
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		"poloRearOne"
+		"polo"
+		"poloOne"
+		"poloRearTwo"
+		"poloTwo"
+		"poloThree"
+		"poloKitchen";
+		grid-template-columns: 1fr;
+		padding-bottom: 80px;
+
+		@include md{
+			grid-template-areas: 
+			"polo poloRearOne"
+			"poloOne poloRearOne"
+			"poloOne poloFront"
+			"poloOne poloRearTwo"
+			"poloTwo poloRearTwo"
+			"poloThree poloKitchen";
+			grid-template-columns: 1fr 1fr;
+			padding-bottom: 100px;
+		}
+
+		@include lg{
+			grid-template-areas: 
+			"polo polo"
+			"poloOne poloTwo"
+			"poloOne poloThree"
+			"poloFront poloRearThree"
+			"poloRearTwo poloKitchen";
+			grid-template-columns: 1fr 1fr;
+			padding: 0 100px 100px 100px;
+		}
+
+		h2{
+			grid-area: polo;
+			padding-top: 40px;
+
+			@include md{
+				padding-left: 60px;
+				padding-top: 50px;
+				text-align: left;
+			}
+
+			@include lg{
+				padding: 0 0 30px 0;
+			}
+		}
+
+		p:nth-child(2){
+			grid-area: poloOne;
+			padding: 10px 20px 40px 20px;
+
+			@include md{
+				padding: 20px 20px 0px 60px;
+			}
+
+			@include lg{
+				padding: 0 30px 0 0;
+			}
+		}
+
+		p:nth-child(3){
+			grid-area: poloTwo;
+			padding-top: 40px;
+
+			@include md{
+				padding: 0px 20px 0px 60px;
+			}
+
+			@include lg{
+				padding: 0 0 0 30px;
+			}
+		}
+
+		p:nth-child(4){
+			grid-area: poloThree;
+			padding-bottom: 40px;
+
+			@include md{
+				padding: 0px 20px 50px 60px;
+			}
+
+			@include lg{
+				padding: 0 0 0 30px;
+				margin-top: -20px;
+			}
+		}
+
+		div:nth-child(5){
+			grid-area: poloRearOne;
+			background-image: url('../img/interiors/PoloRearOne.png');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            min-height: rem-calc(342);
+
+            @include md{
+            	min-height: rem-calc(230);
+            	background-position: left;
+            }
+
+            @include lg{
+            	display: none;
+            }
+		}
+
+		div:nth-child(6){
+			grid-area: poloRearTwo;
+			background-image: url('../img/interiors/PoloRearTwo.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-position: center;
+            min-height: rem-calc(250);
+
+            @include md{
+            	min-height: rem-calc(190);
+            	margin-left: 20px;
+            }
+
+            @include lg{
+            	margin: 0;
+            	min-height: rem-calc(315);
+            }
+		}
+
+		div:nth-child(7){
+			grid-area: poloRearThree;
+			background-image: url('../img/interiors/PoloRearThree.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            display: none;
+
+            @include lg{
+            	display: block;
+            	margin: 50px 0 0 0;
+            	min-height: rem-calc(270);
+            	background-position: center;
+            }
+		}
+
+		div:nth-child(8){
+			grid-area: poloKitchen;
+			background-image: url('../img/interiors/PoloKitchen.png');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-position: right;
+            min-height: rem-calc(250);
+
+            @include md{
+            	display: block;
+            	background-position: left;
+            	min-height: rem-calc(190);
+            	margin-left: 20px;
+            }
+
+            @include lg{
+            	margin: 0;
+            	min-height: rem-calc(315);
+            }
+		}
+
+		div:nth-child(9){
+			grid-area: poloFront;
+			background-image: url('../img/interiors/PoloFront.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            display: none;
+
+            @include md{
+            	display: block;
+            	min-height: rem-calc(190);
+            	margin-left: 20px;
+            }
+
+            @include lg{
+            	margin: 50px 0 0 0;
+            	min-height: rem-calc(270);
+            }
+		}
+	}
+
+	#sprinter {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		"sprinter sprinter"
+		"sprinterOverview sprinterOverview"
+		"sprinterOne sprinterOne"
+		"sprinterKitchen sprinterRear"
+		"sprinterTwo sprinterTwo"
+		"sprinterThree sprinterThree";
+		grid-template-columns: 1fr 1fr;
+		padding-bottom: 100px;
+
+		@include md{
+			grid-template-areas: 
+			"sprinter sprinter"
+			"sprinterOverview sprinterOverview"
+			"sprinterOne sprinterKitchen"
+			"sprinterRear sprinterTwo"
+			"sprinterRear sprinterThree";
+			padding-bottom: 120px;
+		}
+
+		@include lg{
+			grid-template-areas: 
+			"sprinterOverview sprinter"
+			"sprinterOne sprinterKitchen"
+			"sprinterRear sprinterTwo"
+			"sprinterRear sprinterThree";
+			padding: 0 100px 100px 100px;
+		}
+
+		h2{
+			grid-area: sprinter;
+			padding-top: 40px;
+			padding-bottom: 10px;
+
+			@include md{
+				padding-bottom: 20px;
+				padding-top: 0px;
+			}
+		}
+
+		p:nth-child(2){
+			grid-area: sprinterOne;
+			padding: 40px 20px 40px 20px;
+
+			@include md{
+				padding: 0px 20px 0px 60px;
+			}
+		}
+
+		p:nth-child(3){
+			grid-area: sprinterTwo;
+			padding-top: 40px;
+
+			@include md{
+				padding: 0px 60px 0px 20px;
+			}
+		}
+
+		p:nth-child(4){
+			grid-area: sprinterThree;
+			padding-bottom: 40px;
+
+			@include md{
+				padding: 0px 60px 50px 20px;
+			}
+		}
+
+		div:nth-child(5){
+			grid-area: sprinterOverview;
+			background-image: url('../img/interiors/Sprinter.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            min-height: rem-calc(250);
+            background-position: center;
+
+            @include md{
+            	margin: 0px 60px;
+            	min-height: rem-calc(400);
+            }
+		}
+
+		div:nth-child(6){
+			grid-area: sprinterKitchen;
+			background-image: url('../img/interiors/SprinterKitchen.png');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            min-height: rem-calc(250);
+            background-position: right;
+            margin-right: -75px;
+
+            @include md{
+            	margin: 0;
+            	min-height: rem-calc(240);
+            }
+		}
+
+		div:nth-child(7){
+			grid-area: sprinterRear;
+			background-image: url('../img/interiors/SprinterRear.png');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            min-height: rem-calc(250);
+            background-position: left;
+            margin-left: -75px;
+
+             @include md{
+            	min-height: rem-calc(320);
+            	margin: -20px 0 0 0;
+            }
+		}
+
+		div:nth-child(8){
+			grid-area: sprinterFront;
+			background-image: url('../img/interiors/SprinterFront.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover;
+            display: none;
+
+            @include lg {
+            	min-height: rem-calc(250);
+            	display: block;
+            }
+		}
+
+	}
+}

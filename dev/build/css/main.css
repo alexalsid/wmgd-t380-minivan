@@ -320,6 +320,314 @@ html {
 /*Navigation*/
 /*Hero*/
 /*Interiors*/
+#interiors {
+  overflow: hidden; }
+  #interiors h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0; }
+    @media (min-width: 768px) {
+      #interiors h1 {
+        font-size: 58px; } }
+    @media (min-width: 992px) {
+      #interiors h1 {
+        font-size: 70px; } }
+  #interiors h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0; }
+    @media (min-width: 768px) {
+      #interiors h2 {
+        font-size: 30px;
+        line-height: 46px; } }
+    @media (min-width: 992px) {
+      #interiors h2 {
+        font-size: 40px;
+        line-height: 66px; } }
+  #interiors h2 span {
+    font-weight: 600; }
+    @media (min-width: 768px) {
+      #interiors h2 span {
+        font-size: 40px; } }
+    @media (min-width: 992px) {
+      #interiors h2 span {
+        font-size: 60px; } }
+  #interiors p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    padding: 0 21px;
+    text-align: justify;
+    margin: 0; }
+    @media (min-width: 768px) {
+      #interiors p {
+        font-size: 17px;
+        line-height: 27px; } }
+  #interiors #interiorsintro {
+    padding-top: 100px;
+    padding-bottom: 80px; }
+    @media (min-width: 768px) {
+      #interiors #interiorsintro {
+        padding-top: 120px;
+        padding-bottom: 100px; } }
+    @media (min-width: 992px) {
+      #interiors #interiorsintro {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "ntro intro" "introImg introOne";
+        grid-template-columns: 1fr 1fr;
+        padding-top: 140px;
+        padding-bottom: 120px; } }
+    #interiors #interiorsintro h1 {
+      grid-area: intro; }
+      @media (min-width: 768px) {
+        #interiors #interiorsintro h1 {
+          text-align: right;
+          padding-right: 50px; } }
+      @media (min-width: 992px) {
+        #interiors #interiorsintro h1 {
+          text-align: center;
+          padding-right: 100px; } }
+    #interiors #interiorsintro p {
+      grid-area: introOne;
+      padding: 40px 20px 0px 20px; }
+      @media (min-width: 768px) {
+        #interiors #interiorsintro p {
+          padding: 50px 200px 0px 150px; } }
+      @media (min-width: 992px) {
+        #interiors #interiorsintro p {
+          padding: 50px 100px 0px 0px; } }
+    #interiors #interiorsintro div {
+      background-image: url("../img/interiors/Intro.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: none;
+      grid-area: introImg; }
+      @media (min-width: 992px) {
+        #interiors #interiorsintro div {
+          display: block;
+          min-height: 18.75rem;
+          background-position: right;
+          margin-right: -40px; } }
+  #interiors #polo {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "poloRearOne" "polo" "poloOne" "poloRearTwo" "poloTwo" "poloThree" "poloKitchen";
+    grid-template-columns: 1fr;
+    padding-bottom: 80px; }
+    @media (min-width: 768px) {
+      #interiors #polo {
+        grid-template-areas: "polo poloRearOne" "poloOne poloRearOne" "poloOne poloFront" "poloOne poloRearTwo" "poloTwo poloRearTwo" "poloThree poloKitchen";
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 100px; } }
+    @media (min-width: 992px) {
+      #interiors #polo {
+        grid-template-areas: "polo polo" "poloOne poloTwo" "poloOne poloThree" "poloFront poloRearThree" "poloRearTwo poloKitchen";
+        grid-template-columns: 1fr 1fr;
+        padding: 0 100px 100px 100px; } }
+    #interiors #polo h2 {
+      grid-area: polo;
+      padding-top: 40px; }
+      @media (min-width: 768px) {
+        #interiors #polo h2 {
+          padding-left: 60px;
+          padding-top: 50px;
+          text-align: left; } }
+      @media (min-width: 992px) {
+        #interiors #polo h2 {
+          padding: 0 0 30px 0; } }
+    #interiors #polo p:nth-child(2) {
+      grid-area: poloOne;
+      padding: 10px 20px 40px 20px; }
+      @media (min-width: 768px) {
+        #interiors #polo p:nth-child(2) {
+          padding: 20px 20px 0px 60px; } }
+      @media (min-width: 992px) {
+        #interiors #polo p:nth-child(2) {
+          padding: 0 30px 0 0; } }
+    #interiors #polo p:nth-child(3) {
+      grid-area: poloTwo;
+      padding-top: 40px; }
+      @media (min-width: 768px) {
+        #interiors #polo p:nth-child(3) {
+          padding: 0px 20px 0px 60px; } }
+      @media (min-width: 992px) {
+        #interiors #polo p:nth-child(3) {
+          padding: 0 0 0 30px; } }
+    #interiors #polo p:nth-child(4) {
+      grid-area: poloThree;
+      padding-bottom: 40px; }
+      @media (min-width: 768px) {
+        #interiors #polo p:nth-child(4) {
+          padding: 0px 20px 50px 60px; } }
+      @media (min-width: 992px) {
+        #interiors #polo p:nth-child(4) {
+          padding: 0 0 0 30px;
+          margin-top: -20px; } }
+    #interiors #polo div:nth-child(5) {
+      grid-area: poloRearOne;
+      background-image: url("../img/interiors/PoloRearOne.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 21.375rem; }
+      @media (min-width: 768px) {
+        #interiors #polo div:nth-child(5) {
+          min-height: 14.375rem;
+          background-position: left; } }
+      @media (min-width: 992px) {
+        #interiors #polo div:nth-child(5) {
+          display: none; } }
+    #interiors #polo div:nth-child(6) {
+      grid-area: poloRearTwo;
+      background-image: url("../img/interiors/PoloRearTwo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 15.625rem; }
+      @media (min-width: 768px) {
+        #interiors #polo div:nth-child(6) {
+          min-height: 11.875rem;
+          margin-left: 20px; } }
+      @media (min-width: 992px) {
+        #interiors #polo div:nth-child(6) {
+          margin: 0;
+          min-height: 19.6875rem; } }
+    #interiors #polo div:nth-child(7) {
+      grid-area: poloRearThree;
+      background-image: url("../img/interiors/PoloRearThree.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: none; }
+      @media (min-width: 992px) {
+        #interiors #polo div:nth-child(7) {
+          display: block;
+          margin: 50px 0 0 0;
+          min-height: 16.875rem;
+          background-position: center; } }
+    #interiors #polo div:nth-child(8) {
+      grid-area: poloKitchen;
+      background-image: url("../img/interiors/PoloKitchen.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      min-height: 15.625rem; }
+      @media (min-width: 768px) {
+        #interiors #polo div:nth-child(8) {
+          display: block;
+          background-position: left;
+          min-height: 11.875rem;
+          margin-left: 20px; } }
+      @media (min-width: 992px) {
+        #interiors #polo div:nth-child(8) {
+          margin: 0;
+          min-height: 19.6875rem; } }
+    #interiors #polo div:nth-child(9) {
+      grid-area: poloFront;
+      background-image: url("../img/interiors/PoloFront.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: none; }
+      @media (min-width: 768px) {
+        #interiors #polo div:nth-child(9) {
+          display: block;
+          min-height: 11.875rem;
+          margin-left: 20px; } }
+      @media (min-width: 992px) {
+        #interiors #polo div:nth-child(9) {
+          margin: 50px 0 0 0;
+          min-height: 16.875rem; } }
+  #interiors #sprinter {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "sprinter sprinter" "sprinterOverview sprinterOverview" "sprinterOne sprinterOne" "sprinterKitchen sprinterRear" "sprinterTwo sprinterTwo" "sprinterThree sprinterThree";
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px; }
+    @media (min-width: 768px) {
+      #interiors #sprinter {
+        grid-template-areas: "sprinter sprinter" "sprinterOverview sprinterOverview" "sprinterOne sprinterKitchen" "sprinterRear sprinterTwo" "sprinterRear sprinterThree";
+        padding-bottom: 120px; } }
+    @media (min-width: 992px) {
+      #interiors #sprinter {
+        grid-template-areas: "sprinterOverview sprinter" "sprinterOne sprinterKitchen" "sprinterRear sprinterTwo" "sprinterRear sprinterThree";
+        padding: 0 100px 100px 100px; } }
+    #interiors #sprinter h2 {
+      grid-area: sprinter;
+      padding-top: 40px;
+      padding-bottom: 10px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter h2 {
+          padding-bottom: 20px;
+          padding-top: 0px; } }
+    #interiors #sprinter p:nth-child(2) {
+      grid-area: sprinterOne;
+      padding: 40px 20px 40px 20px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter p:nth-child(2) {
+          padding: 0px 20px 0px 60px; } }
+    #interiors #sprinter p:nth-child(3) {
+      grid-area: sprinterTwo;
+      padding-top: 40px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter p:nth-child(3) {
+          padding: 0px 60px 0px 20px; } }
+    #interiors #sprinter p:nth-child(4) {
+      grid-area: sprinterThree;
+      padding-bottom: 40px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter p:nth-child(4) {
+          padding: 0px 60px 50px 20px; } }
+    #interiors #sprinter div:nth-child(5) {
+      grid-area: sprinterOverview;
+      background-image: url("../img/interiors/Sprinter.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 15.625rem;
+      background-position: center; }
+      @media (min-width: 768px) {
+        #interiors #sprinter div:nth-child(5) {
+          margin: 0px 60px;
+          min-height: 25rem; } }
+    #interiors #sprinter div:nth-child(6) {
+      grid-area: sprinterKitchen;
+      background-image: url("../img/interiors/SprinterKitchen.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 15.625rem;
+      background-position: right;
+      margin-right: -75px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter div:nth-child(6) {
+          margin: 0;
+          min-height: 15rem; } }
+    #interiors #sprinter div:nth-child(7) {
+      grid-area: sprinterRear;
+      background-image: url("../img/interiors/SprinterRear.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 15.625rem;
+      background-position: left;
+      margin-left: -75px; }
+      @media (min-width: 768px) {
+        #interiors #sprinter div:nth-child(7) {
+          min-height: 20rem;
+          margin: -20px 0 0 0; } }
+    #interiors #sprinter div:nth-child(8) {
+      grid-area: sprinterFront;
+      background-image: url("../img/interiors/SprinterFront.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: none; }
+      @media (min-width: 992px) {
+        #interiors #sprinter div:nth-child(8) {
+          min-height: 15.625rem;
+          display: block; } }
+
 /*Technology*/
 /*Customize*/
 /*Header*/
