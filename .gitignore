@@ -23,8 +23,9 @@ Thumbs.db
 *.sublime-workspace
 *.komodoproject
 config.codekit3
-build
-test
+config.codekit3~405209679b627e6f41739730e96834c907208be3
+dev/build/*
+dev/test/*
 .DS_Store
 
 # ignore log files and databases

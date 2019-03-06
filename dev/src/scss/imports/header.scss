@@ -1,0 +1,32 @@
+//header AC
+
+
+header{
+  height:80px;
+  background-color: #ffffff;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+#logo{
+  position: fixed;
+  left:20px;
+  top:20px;
+  height:40px;
+}
+
+#burger-container{
+  position: fixed;
+  right:25px;
+  top:25px;
+}
+
+
+
+//nav-container
+
+
+#nav-container{
+  display: none;
+}

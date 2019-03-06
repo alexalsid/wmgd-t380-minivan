@@ -1,3 +1,7 @@
+@import "imports/helpers/variables.scss";
+@import "imports/helpers/mixins.scss";
+
+
 @import 'imports/styles.scss';
 @import 'imports/animations.scss';
 @import 'imports/layout.scss';
@@ -30,4 +34,10 @@
 @import "imports/sections/_footer.scss";
 =======
 @import 'imports/hero.scss';
+<<<<<<< HEAD
 >>>>>>> f374c67169d579292b0da1f913d88edec3a46916
+=======
+@import 'imports/header.scss';
+@import 'imports/footer.scss';
+@import 'imports/gallery.scss';
+>>>>>>> 405209679b627e6f41739730e96834c907208be3

@@ -1,0 +1,115 @@
+//Gallery AC
+
+
+
+.gallery{
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-auto-rows: 265px;
+  grid-template-areas:
+  "gallery1"
+  "gallery2"
+  "custom"
+  "gallery3"
+  "gallery4"
+  "gallery5"
+  ;
+
+  @include md{
+    grid-auto-columns: 50% auto;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "gallery3 gallery5"
+    "gallery3 custom"
+    "gallery1 gallery1"
+    "gallery4 gallery2"
+  }
+
+  @include lg{
+    grid-auto-rows: 200px;
+    grid-auto-columns: 33% 33% auto;
+    margin:100px 200px 100px 200px;
+    grid-template-areas:
+    "gallery3 gallery5 gallery5"
+    "gallery3 custom gallery4"
+    "gallery1 gallery1 gallery2"
+  }
+
+
+
+  a{
+    text-decoration: none;
+
+  h1{
+    font-size: 26px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    grid-area: custom;
+    padding-top: 60px;
+      span{
+        font-size: 50px;
+        font-weight: 600;
+      }
+      @include md{
+        font-size: 28px;
+      }
+      @include lg{
+        margin-top: 0;
+
+      }
+
+    }
+  }
+
+}
+
+#gallery1{
+  background-color: #8b9dc3;
+  background-image: url("../img/gallery/gallery1.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  grid-area: gallery1;
+
+  
+
+}
+
+
+#gallery2{
+    background-color: #8b9dc3;
+    background-image: url("../img/gallery/gallery2.jpg");
+    background-size: cover;
+    grid-area: gallery2;
+
+}
+
+
+#gallery3{
+    background-color: #8b9dc3;
+    background-image: url("../img/gallery/gallery3.jpeg");
+    background-size: cover;
+    grid-area: gallery3;
+
+}
+
+
+#gallery4{
+    background-color: #8b9dc3;
+    background-image: url("../img/gallery/gallery4.jpg");
+    background-position: bottom;
+    background-size: cover;
+    grid-area: gallery4;
+
+}
+
+
+#gallery5{
+  background-image: url("../img/gallery/gallery5.jpeg");
+  background-size: cover;
+    background-color: #8b9dc3;
+    grid-area: gallery5;
+
+
+}

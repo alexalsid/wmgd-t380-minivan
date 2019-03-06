@@ -1,0 +1,26 @@
+//Footer AC
+
+
+footer{
+  background-color:#000000;
+  height:80px;
+  text-align: center;
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+    i{
+      color: #ffffff;
+      font-size: 25px;
+      padding: 30px 15px 0;
+    }
+
+    i:hover{
+      opacity: 0.6;
+      transition-timing-function: ease-in;
+      transition: 0.5s;
+    }
+  }
+}
