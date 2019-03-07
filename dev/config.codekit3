@@ -30,6 +30,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/build/img/gallery/gallery10.jpeg": {
+		"ft": 16384,
+		"iS": 83144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/build/img/gallery/gallery2.jpg": {
 		"ft": 16384,
 		"iS": 155277,
@@ -80,6 +91,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/img/gallery/gallery6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery7.jpeg": {
+		"ft": 16384,
+		"iS": 109804,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery8.jpeg": {
+		"ft": 16384,
+		"iS": 134378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/gallery/gallery9.jpeg": {
+		"ft": 16384,
+		"iS": 163179,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/gallery/gallery9.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -233,6 +277,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/scss/imports/layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/imports/navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/imports/navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

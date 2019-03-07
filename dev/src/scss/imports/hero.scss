@@ -10,7 +10,7 @@
   background-position: bottom;
 
   h1{
-    font-size: 35px;
+    font-size: 45px;
     padding-left: 20px;
     padding-top: 20vh;
     font-weight: 300;
@@ -22,6 +22,7 @@
   @include lg {
     margin-left: 50px;
     font-size: 65px;
+    height:95vh;
   }
 
 
