@@ -140,12 +140,32 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/build/js/main-min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/main-min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/build/js/main-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/js/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/js/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/main-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -307,26 +327,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/src/scss/main-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/main-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/src/scss/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/src/scss/main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -336,7 +336,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/css/main.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		}
@@ -735,7 +735,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1758,7 +1758,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "TweenMax",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

@@ -33,7 +33,6 @@ function menuActions(){
     else{
         // TweenMax.to($navContainer,0.5,{opacity:0.8});
         isMenuOut = false;
-        
     }
 }
 
