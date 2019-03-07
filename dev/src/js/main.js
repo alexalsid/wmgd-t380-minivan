@@ -11,6 +11,7 @@ $(document).ready(function () {
     function revealFirst(){
         console.log('click');
 
+<<<<<<< HEAD
         divs[0].classList.add('active');
         divs[1].classList.remove('active');
         divs[2].classList.remove('active');
@@ -128,3 +129,10 @@ $burger.on("click", menuActions);
 //
 //   }
 // }
+=======
+});
+
+AOS.init({
+ duration: 1200
+});
+>>>>>>> 15964421db8a4d1cd4c50cb1deb3e734ccb44ee0
