@@ -318,7 +318,6 @@ html {
 /*Buttons*/
 /*Forms*/
 /*Navigation*/
-/*Hero*/
 /*Interiors*/
 #interiors {
   overflow: hidden; }
@@ -550,7 +549,7 @@ html {
     padding-bottom: 100px; }
     @media (min-width: 768px) {
       #interiors #sprinter {
-        grid-template-areas: "sprinter sprinter" "sprinterOverview sprinterOverview" "sprinterOne sprinterKitchen" "sprinterRear sprinterTwo" "sprinterRear sprinterThree";
+        grid-template-areas: "sprinter sprinter" "sprinterOverview sprinterOverview" "sprinterOne sprinterOne" "sprinterTwo sprinterKitchen" "sprinterRear sprinterThree";
         padding-bottom: 120px; } }
     @media (min-width: 992px) {
       #interiors #sprinter {
@@ -569,13 +568,13 @@ html {
       padding: 40px 20px 40px 20px; }
       @media (min-width: 768px) {
         #interiors #sprinter p:nth-child(2) {
-          padding: 0px 20px 0px 60px; } }
+          padding: 0px 60px 0px 60px; } }
     #interiors #sprinter p:nth-child(3) {
       grid-area: sprinterTwo;
       padding-top: 40px; }
       @media (min-width: 768px) {
         #interiors #sprinter p:nth-child(3) {
-          padding: 0px 60px 0px 20px; } }
+          padding: 0px 20px 0px 60px; } }
     #interiors #sprinter p:nth-child(4) {
       grid-area: sprinterThree;
       padding-bottom: 40px; }
@@ -615,8 +614,8 @@ html {
       margin-left: -75px; }
       @media (min-width: 768px) {
         #interiors #sprinter div:nth-child(7) {
-          min-height: 20rem;
-          margin: -20px 0 0 0; } }
+          min-height: 15.625rem;
+          margin: 0; } }
     #interiors #sprinter div:nth-child(8) {
       grid-area: sprinterFront;
       background-image: url("../img/interiors/SprinterFront.jpg");
@@ -627,8 +626,3 @@ html {
         #interiors #sprinter div:nth-child(8) {
           min-height: 15.625rem;
           display: block; } }
-
-/*Technology*/
-/*Customize*/
-/*Header*/
-/*Footer*/
