@@ -164,7 +164,7 @@
 			"poloOne poloTwo"
 			"poloOne poloThree"
 			"poloFront poloRearThree"
-			"poloRearTwo poloKitchen";
+			"poloKitchen poloRearTwo";
 			grid-template-columns: 1fr 1fr;
 			padding: 0 100px 100px 100px;
 		}
@@ -330,12 +330,11 @@
 		padding-bottom: 100px;
 
 		@include md{
-			align-items: center;
 			grid-template-areas: 
-			"sprinter sprinter"
-			"sprinterOverview sprinterOverview"
-			"sprinterOne sprinterOne"
-			"sprinterTwo sprinterRear"
+			"sprinterRear sprinter"
+			"sprinterRear sprinterOne"
+			"sprinterFront sprinterOne"
+			"sprinterOverview sprinterTwo"
 			"sprinterKitchen sprinterThree";
 			padding-bottom: 120px;
 		}
@@ -343,9 +342,9 @@
 		@include lg{
 			grid-template-areas: 
 			"sprinterOverview sprinter"
-			"sprinterOne sprinterKitchen"
-			"sprinterRear sprinterTwo"
-			"sprinterRear sprinterThree";
+			"sprinterRear sprinterOne"
+			"sprinterFront sprinterTwo"
+			"sprinterKitchen sprinterThree";
 			padding: 0 100px 100px 100px;
 		}
 
@@ -355,8 +354,8 @@
 			padding-bottom: 10px;
 
 			@include md{
-				padding-bottom: 20px;
-				padding-top: 0px;
+				padding: 20px 60px 0 60px;
+				text-align: right;
 			}
 		}
 
@@ -365,7 +364,11 @@
 			padding: 40px 20px 40px 20px;
 
 			@include md{
-				padding: 20px 175px 20px 175px;
+				padding: 20px 60px 0px 20px;
+			}
+
+			@include lg{
+				padding: 0;
 			}
 		}
 
@@ -374,7 +377,11 @@
 			padding-top: 40px;
 
 			@include md{
-				padding: 0px 20px 0px 60px;
+				padding: 0px 60px 0px 20px;
+			}
+
+			@include lg{
+				padding: 0;
 			}
 		}
 
@@ -383,7 +390,11 @@
 			padding-bottom: 40px;
 
 			@include md{
-				padding: 0px 60px 0px 20px;
+				padding: 0px 60px 50px 20px;
+			}
+
+			@include lg{
+				padding: 0;
 			}
 		}
 
@@ -396,8 +407,7 @@
             background-position: center;
 
             @include md{
-            	margin: 0px 60px;
-            	min-height: rem-calc(400);
+            	min-height: rem-calc(200);
             }
 		}
 
@@ -412,7 +422,8 @@
 
             @include md{
             	margin: 0;
-            	min-height: rem-calc(250);
+            	min-height: rem-calc(225);
+            	background-position: center;
             }
 		}
 
@@ -426,7 +437,7 @@
             margin-left: -75px;
 
              @include md{
-            	min-height: rem-calc(250);
+            	min-height: rem-calc(225);
             	margin: 0;
             }
 		}
@@ -438,8 +449,8 @@
             background-size: cover;
             display: none;
 
-            @include lg {
-            	min-height: rem-calc(250);
+            @include md {
+            	min-height: rem-calc(200);
             	display: block;
             }
 		}
