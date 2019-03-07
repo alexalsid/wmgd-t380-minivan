@@ -147,14 +147,14 @@ footer {
 #gallery3 {
   background-image: url("../img/gallery/gallery3.jpeg");
   background-size: cover;
-  background-position: bottom left;
+  background-position: bottom ;
   transition-timing-function: ease-out ease-in;
   transition: 1.5s;
   grid-area: gallery3; }
 
   #gallery3:hover{
     background-image: url("../img/gallery/gallery9.jpeg");
-    background-position: bottom;
+    background-position: bottom ;
     background-size: cover;
   }
 
@@ -168,7 +168,7 @@ footer {
 
   #gallery4:hover{
     background-image: url("../img/gallery/gallery10.jpeg");
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
   }
 
@@ -176,6 +176,7 @@ footer {
 #gallery5 {
   background-image: url("../img/gallery/gallery5.jpeg");
   background-size: cover;
+  background-position: bottom right;
   transition-timing-function: ease-out ;
   transition: 1.5s;
   grid-area: gallery5; }
