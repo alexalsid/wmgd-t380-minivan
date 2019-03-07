@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log("ready!")});
+var $burger=$("#burger"),$navContainer=$("#nav-container"),$TopLine=$("#TopLine"),$MiddleLine=$("#MiddleLine"),$BottomLine=$("#BottomLine"),isMenuOut=!1;function menuActions(){console.log("working"),isMenuOut=!1===isMenuOut?(TweenMax.set($navContainer,{display:"block"}),TweenMax.from($navContainer,.25,{alpha:0}),!0):(TweenMax.to($navContainer,.5,{opacity:0,onComplete:setDisplayNone}),!1)}function setDisplayNone(){TweenMax.set($navContainer,{display:"none"})}$burger.on("click",menuActions);
