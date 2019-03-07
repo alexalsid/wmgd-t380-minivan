@@ -37,7 +37,6 @@
   }
 
 
-
   a{
     text-decoration: none;
 
@@ -65,51 +64,71 @@
 
 }
 
-#gallery1{
-  background-color: #8b9dc3;
+#gallery1 {
   background-image: url("../img/gallery/gallery1.jpeg");
   background-size: cover;
   background-position: bottom;
-  grid-area: gallery1;
-
-  
-
-}
-
-
-#gallery2{
-    background-color: #8b9dc3;
-    background-image: url("../img/gallery/gallery2.jpg");
-    background-size: cover;
-    grid-area: gallery2;
-
-}
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
+  grid-area: gallery1; }
+      :hover{
+      background-image: url("../img/gallery/gallery6.jpeg");
+      background-size: cover;
+    }
+  }
 
 
-#gallery3{
-    background-color: #8b9dc3;
-    background-image: url("../img/gallery/gallery3.jpeg");
-    background-size: cover;
-    grid-area: gallery3;
+#gallery2 {
+  background-image: url("../img/gallery/gallery2.jpg");
+  background-size: cover;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
+  grid-area: gallery2; }
+        :hover{
+        background-image: url("../img/gallery/gallery7.jpeg");
+        background-position: center;
+        background-size: cover;
+      }
+    }
 
-}
-
-
-#gallery4{
-    background-color: #8b9dc3;
-    background-image: url("../img/gallery/gallery4.jpg");
+#gallery3 {
+  background-image: url("../img/gallery/gallery3.jpeg");
+  background-size: cover;
+  background-position: bottom left;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
+  grid-area: gallery3;
+    :hover{
+    background-image: url("../img/gallery/gallery9.jpeg");
     background-position: bottom;
     background-size: cover;
-    grid-area: gallery4;
-
+  }
 }
 
+#gallery4 {
+  background-image: url("../img/gallery/gallery4.jpg");
+  background-position: bottom;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
+  background-size: cover;
+  grid-area: gallery4; }
+    :hover{
+    background-image: url("../img/gallery/gallery10.jpeg");
+    background-position: center;
+    background-size: cover;
+    }
+  }
 
-#gallery5{
+
+#gallery5 {
   background-image: url("../img/gallery/gallery5.jpeg");
   background-size: cover;
-    background-color: #8b9dc3;
-    grid-area: gallery5;
-
-
+  transition-timing-function: ease-out ;
+  transition: 1.5s;
+  grid-area: gallery5;
+    :hover{
+    background-image: url("../img/gallery/gallery8.jpeg");
+    background-position: bottom right;
+    background-size: cover;
+  }
 }

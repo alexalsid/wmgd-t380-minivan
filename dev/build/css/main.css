@@ -20,7 +20,7 @@ body {
   background-size: cover;
   background-position: bottom; }
   #hero h1 {
-    font-size: 35px;
+    font-size: 45px;
     padding-left: 20px;
     padding-top: 20vh;
     font-weight: 300;
@@ -31,7 +31,8 @@ body {
     @media (min-width: 1000px) {
       #hero h1 {
         margin-left: 50px;
-        font-size: 65px; } }
+        font-size: 65px;
+        height: 95vh; } }
     #hero h1 span {
       font-weight: 600; }
 
@@ -40,21 +41,27 @@ header {
   background-color: #ffffff;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 1200; }
 
 #logo {
   position: fixed;
   left: 20px;
   top: 20px;
-  height: 40px; }
+  height: 40px;
+ }
+
 
 #burger-container {
   position: fixed;
   right: 25px;
   top: 25px; }
 
-#nav-container {
-  display: none; }
+  #nav-container{
+    display: none;
+  }
+
+
 
 footer {
   background-color: #000000;
@@ -110,33 +117,71 @@ footer {
           margin-top: 0; } }
 
 #gallery1 {
-  background-color: #8b9dc3;
   background-image: url("../img/gallery/gallery1.jpeg");
   background-size: cover;
   background-position: bottom;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
   grid-area: gallery1; }
 
+    #gallery1:hover{
+      background-image: url("../img/gallery/gallery6.jpeg");
+      background-size: cover;
+    }
+
+
 #gallery2 {
-  background-color: #8b9dc3;
   background-image: url("../img/gallery/gallery2.jpg");
   background-size: cover;
+  background-position: center;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
   grid-area: gallery2; }
 
+      #gallery2:hover{
+        background-image: url("../img/gallery/gallery7.jpeg");
+        background-position: center;
+        background-size: cover;
+      }
+
 #gallery3 {
-  background-color: #8b9dc3;
   background-image: url("../img/gallery/gallery3.jpeg");
   background-size: cover;
+  background-position: bottom left;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
   grid-area: gallery3; }
 
+  #gallery3:hover{
+    background-image: url("../img/gallery/gallery9.jpeg");
+    background-position: bottom;
+    background-size: cover;
+  }
+
 #gallery4 {
-  background-color: #8b9dc3;
   background-image: url("../img/gallery/gallery4.jpg");
   background-position: bottom;
+  transition-timing-function: ease-out ease-in;
+  transition: 1.5s;
   background-size: cover;
   grid-area: gallery4; }
+
+  #gallery4:hover{
+    background-image: url("../img/gallery/gallery10.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+
 
 #gallery5 {
   background-image: url("../img/gallery/gallery5.jpeg");
   background-size: cover;
-  background-color: #8b9dc3;
+  transition-timing-function: ease-out ;
+  transition: 1.5s;
   grid-area: gallery5; }
+
+  #gallery5:hover{
+    background-image: url("../img/gallery/gallery8.jpeg");
+    background-position: bottom right;
+    background-size: cover;
+  }

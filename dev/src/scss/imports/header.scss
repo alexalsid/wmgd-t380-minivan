@@ -7,6 +7,7 @@ header{
   position: fixed;
   top:0;
   width: 100%;
+  z-index: 1200;
 }
 
 #logo{
@@ -14,6 +15,11 @@ header{
   left:20px;
   top:20px;
   height:40px;
+  :hover{
+    opacity: .5;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
 }
 
 #burger-container{
